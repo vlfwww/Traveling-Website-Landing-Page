@@ -1,0 +1,239 @@
+.mainWrapper {
+  margin: 0 auto;
+  & .wrapper {
+    max-width: 1260px;
+    margin: 30px auto;
+    & header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & .links {
+        display: flex;
+        justify-content: space-between;
+        gap: 115px;
+        & p {
+          font: 400 17px "Geist";
+        }
+        & .left,
+        .right,
+        .dropDown {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 10px;
+        }
+        & .left,
+        .right {
+          gap: 80px;
+          & .signUp {
+            border: 1.33px solid rgba(33, 40, 50, 1);
+            padding: 15px 20px;
+            border-radius: 7px;
+          }
+        }
+      }
+    }
+    & .preview {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 168px;
+      & .left {
+        max-width: 725px;
+        & .prewT {
+          font: 700 27px "Poppins";
+          color: rgba(223, 105, 81, 1);
+          text-transform: uppercase;
+        }
+        & h1 {
+          font: 700 90px "Volkhov";
+          color: rgba(24, 30, 75, 1);
+          margin: 32px 0 39px;
+        }
+        & .dop {
+          font: 500 21px "Poppins";
+          color: rgba(94, 98, 130, 1);
+        }
+        & .buttons {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 45px;
+          & .more {
+            font: 500 24px "Geist";
+            color: rgba(255, 255, 255, 1);
+            box-shadow: 0px 26.6px 46.55px 0px rgba(241, 165, 1, 0.15);
+            background-color: rgba(241, 165, 1, 1);
+            width: 226px;
+            height: 79px;
+            border-radius: 13.3px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+          }
+          & .play {
+            display: flex;
+            justify-content: space-between;
+            & p {
+              font: 500 23px "Poppins";
+              color: rgba(104, 109, 119, 1);
+              margin-top: 40px;
+            }
+          }
+        }
+      }
+      & .right {
+        & img {
+          width: 600px;
+          height: 600px;
+        }
+      }
+    }
+  }
+  & .category {
+    margin-top: 173px;
+    text-align: center;
+    & .cat {
+      font: 600 23px "Poppins";
+      color: rgba(94, 98, 130, 1);
+    }
+    & h1 {
+      font: 700 66px "Volkhov";
+      color: rgba(20, 24, 62, 1);
+    }
+    & .wrapper {
+      margin-top: 88px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & .block {
+        max-width: 252px;
+        padding: 2px 67px 59px;
+        & .title {
+          font: 600 26px "Geist";
+          color: rgba(30, 29, 76, 1);
+          margin: 38px 0 19px;
+        }
+        & .dop {
+          font: 500 21px "Poppins";
+          color: rgba(94, 98, 130, 1);
+        }
+        & img {
+          width: 122px;
+          height: 103px;
+        }
+      }
+      & .block:hover {
+        box-shadow: 0px 133.01px 106.41px 0px rgba(0, 0, 0, 0.05);
+        border-radius: 47.88px;
+      }
+    }
+  }
+  & .selling {
+    margin-top: 173px;
+    text-align: center;
+    & .sel {
+      font: 600 23px "Poppins";
+      color: rgba(94, 98, 130, 1);
+    }
+    & h1 {
+      font: 700 66px "Volkhov";
+      color: rgba(20, 24, 62, 1);
+    }
+    & .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & .block {
+        border-bottom-right-radius: 31.92px;
+        border-bottom-left-radius: 31.92px;
+        box-shadow: 0px 133.01px 106.41px 0px rgba(0, 0, 0, 0.05);
+        & img {
+          width: 400px;
+          height: 400px;
+        }
+        & .textBlock {
+          margin: 35px 35px 0 26px;
+          display: flex;
+          justify-content: space-between;
+          & p {
+            font: 500 23px "Poppins";
+            color: rgba(94, 98, 130, 1);
+          }
+        }
+        & .days {
+          display: flex;
+          gap: 10px;
+          margin: 24px 0 35px 26px;
+          & img {
+            width: 27px;
+            height: 27px;
+          }
+          & p {
+            font: 500 23px "Poppins";
+            color: rgba(94, 98, 130, 1);
+          }
+        }
+      }
+    }
+  }
+  & .book {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    align-items: center;
+    & .left {
+      & .pBook {
+        font: 600 23px "Poppins";
+        color: rgba(94, 98, 130, 1);
+      }
+      & h1 {
+        font: 700 66px "Volkhov";
+        color: rgba(20, 24, 62, 1);
+        margin: 20px 0 40px;
+      }
+      & .step {
+        display: flex;
+        justify-content: space-between;
+        max-width: 525px;
+        align-items: center;
+        margin-bottom: 50px;
+        & .text {
+          margin-left: 20px;
+          & .title {
+            font: 700 21px "Poppins";
+            color: rgba(94, 98, 130, 1);
+          }
+          & .dop {
+            font: 400 21px "Poppins";
+            color: rgba(94, 98, 130, 1);
+          }
+        }
+      }
+    }
+    & .right {
+      & img {
+        width: 645px;
+        height: 610px;
+        border-width: 1.33px;
+        margin-top: 250px;
+      }
+    }
+  }
+  & .review{
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-between;
+    & .left{
+      & .pReview {
+        font: 600 23px "Poppins";
+        color: rgba(94, 98, 130, 1);
+      }
+      & h1 {
+        font: 700 66px "Volkhov";
+        color: rgba(20, 24, 62, 1);
+        margin-top: 11px;
+      }
+    }
+  }
+}
