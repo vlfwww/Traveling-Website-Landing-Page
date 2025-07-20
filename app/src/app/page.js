@@ -106,7 +106,7 @@ export default function Home() {
           <h1>Top Destinations</h1>
           <div className={style.wrapper}>
             <div className={style.block}>
-              <Image src={d1} alt="d1" />
+              <Image src={d1} alt="d1" className={style.mainImg} />
               <div className={style.textBlock}>
                 <p>Rome, Italty</p>
                 <p>$5,42k</p>
@@ -117,7 +117,7 @@ export default function Home() {
               </div>
             </div>
             <div className={style.block}>
-              <Image src={d2} alt="d2" />
+              <Image src={d2} alt="d2" className={style.mainImg}/>
               <div className={style.textBlock}>
                 <p>London, UK</p>
                 <p>$4.2k</p>
@@ -128,7 +128,7 @@ export default function Home() {
               </div>
             </div>
             <div className={style.block}>
-              <Image src={d3} alt="d3" />
+              <Image src={d3} alt="d3" className={style.mainImg} />
               <div className={style.textBlock}>
                 <p>Full Europe</p>
                 <p>$15k</p>

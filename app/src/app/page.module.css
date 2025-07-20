@@ -308,6 +308,7 @@
     }
   }
   & .subscribe {
+    margin: 0 auto;
     padding: 105px 206px 103px;
     margin-top: 150px;
     border-top-left-radius: 26.6px;
@@ -347,34 +348,220 @@
       }
     }
   }
-  & footer{
+  & footer {
     margin-top: 150px;
     margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
-    & .left{
-      & p{
+    & .left {
+      & p {
         font: 500 17px "Poppins";
         color: rgba(94, 98, 130, 1);
         margin-top: 60px;
         max-width: 275px;
       }
     }
-    & .right{
+    & .right {
       display: flex;
       justify-content: space-between;
-      gap:95px;
+      gap: 95px;
       & .block {
-        & h1{
+        & h1 {
           color: rgba(8, 8, 9, 1);
           font: 700 27px "Poppins";
           margin-bottom: 44px;
         }
-        & p{
+        & p {
           color: rgba(94, 98, 130, 1);
           font: 500 23px "Poppins";
         }
       }
+    }
+  }
+}
+@media (max-width: 1331px) {
+  .mainWrapper .wrapper .preview .left h1 {
+    font-size: 50px;
+  }
+  .mainWrapper .wrapper .selling .wrapper .block .mainImg {
+    width: 300px;
+    height: 300px;
+  }
+  .mainWrapper .wrapper .book .left h1 {
+    font-size: 30px;
+  }
+  .mainWrapper .wrapper .book {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1165px) {
+  .mainWrapper .wrapper .category .wrapper .block {
+    & img {
+      width: 61px;
+      height: 51px;
+    }
+    & .title {
+      font-size: 19px;
+    }
+    & .dop {
+      font-size: 14px;
+    }
+  }
+  .mainWrapper .wrapper .book .left {
+    & .title {
+      font-size: 15px;
+    }
+    & .dop {
+      font-size: 13px;
+    }
+  }
+}
+@media (max-width: 1114px) {
+  .mainWrapper .wrapper {
+    & .preview {
+      display: flex;
+      flex-direction: column;
+    }
+    & .category .wrapper {
+      display: flex;
+      flex-direction: column;
+      & .title {
+        font-size: 45px;
+      }
+      & .dop {
+        font-size: 43px;
+      }
+    }
+    & .selling .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    & .book {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      & .right {
+        & img {
+          margin-top: 30px;
+        }
+      }
+    }
+    & .review {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      & .right {
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+@media (max-width: 1033px) {
+  .mainWrapper .wrapper {
+    & header {
+      display: flex;
+      flex-direction: column;
+    }
+    & footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+    & .partnets {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    & .review .slider {
+      display: none;
+    }
+  }
+}
+@media (max-width: 835px) {
+  .mainWrapper .wrapper {
+    & header .links {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    & .subscribe {
+      & h1 {
+        font-size: 25px;
+      }
+      & .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+    }
+    & footer {
+      & .right {
+        & .block {
+          & h1 {
+            font-size: 15px;
+          }
+          & p {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 786px) {
+  .mainWrapper .wrapper {
+    & .subscribe {
+      padding: 10px;
+      border-radius: 30px;
+      & .form {
+        & input {
+          width: 300px;
+          height: 50px;
+        }
+        & button {
+          width: 200px;
+          height: 50px;
+        }
+        & h1 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 655px) {
+  .mainWrapper .wrapper {
+    & .preview {
+      margin-top: 50px;
+      & .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & .play {
+          display: flex;
+          gap: 10px;
+        }
+      }
+      & .right img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+    & .book .right img {
+      width: 300px;
+      height: 300px;
+    }
+    & .partnets{
+      margin: 50px 0;
+    }
+    & .category h1, .selling h1{
+      font-size: 35px;
     }
   }
 }
