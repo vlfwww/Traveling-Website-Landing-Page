@@ -16,6 +16,12 @@ import step1 from "../../public/step1.png";
 import step2 from "../../public/step2.png";
 import step3 from "../../public/step3.png";
 import bookImg from "../../public/bookImg.png";
+import p1 from "../../public/p1.png";
+import p2 from "../../public/p2.png";
+import p3 from "../../public/p3.png";
+import p4 from "../../public/p4.png";
+import p5 from "../../public/p5.png";
+import email from "../../public/email.png";
 
 export default function Home() {
   return (
@@ -180,12 +186,73 @@ export default function Home() {
           </div>
           <div className={style.right}>
             <div className={style.block}>
-              <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
-              <p>Mike taylor</p>
-              <p>Lahore, Pakistan</p>
+              <p className={style.textRewiew}>
+                “On the Windows talking painted pasture yet its express parties
+                use. Sure last upon he same as knew next. Of believed or
+                diverted no.”
+              </p>
+              <p className={style.author}>Mike taylor</p>
+              <p className={style.place}>Lahore, Pakistan</p>
+            </div>
+            <div className={style.slider}>
+              <div className={style.button}></div>
+              <div className={style.button}></div>
             </div>
           </div>
         </section>
+        <section className={style.partnets}>
+          <div className={style.partnetsWrapper}>
+            <Image src={p1} alt="p1" />
+          </div>
+          <div className={style.partnetsWrapper}>
+            <Image src={p2} alt="p2" />
+          </div>
+          <div className={style.partnetsWrapper}>
+            <Image src={p3} alt="p3" />
+          </div>
+          <div className={style.partnetsWrapper}>
+            <Image src={p4} alt="p4" />
+          </div>
+          <div className={style.partnetsWrapper}>
+            <Image src={p5} alt="p5" />
+          </div>
+        </section>
+        <section className={style.subscribe}>
+          <h1>
+            Subscribe to get information, latest news and other interesting
+            offers about Jadoo
+          </h1>
+          <div className={style.form}>
+            <input type="text" placeholder="Your email" />
+            <button>Subscribe</button>
+          </div>
+        </section>
+        <footer>
+          <div className={style.left}>
+            <Image src={logo} alt="logo" />
+            <p>Book your trip in minute, get full Control for much longer.</p>
+          </div>
+          <div className={style.right}>
+            <div className={style.block}>
+              <h1>Company</h1>
+              <p>About</p>
+              <p>Careers</p>
+              <p>Mobile</p>
+            </div>
+            <div className={style.block}>
+              <h1>Contact</h1>
+              <p>Help/FAQ</p>
+              <p>Press</p>
+              <p>Affilates</p>
+            </div>
+            <div className={style.block}>
+              <h1>More</h1>
+              <p>Airlinefees</p>
+              <p>Airline</p>
+              <p>Low fare tips</p>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   );

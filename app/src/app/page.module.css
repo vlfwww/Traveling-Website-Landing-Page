@@ -220,11 +220,11 @@
       }
     }
   }
-  & .review{
+  & .review {
     display: flex;
     margin-top: 130px;
     justify-content: space-between;
-    & .left{
+    & .left {
       & .pReview {
         font: 600 23px "Poppins";
         color: rgba(94, 98, 130, 1);
@@ -233,6 +233,147 @@
         font: 700 66px "Volkhov";
         color: rgba(20, 24, 62, 1);
         margin-top: 11px;
+      }
+    }
+    & .right {
+      display: flex;
+      & .block {
+        max-width: 670px;
+        box-shadow: 0px 133.01px 106.41px 0px rgba(0, 0, 0, 0.05);
+        border-radius: 13px;
+        padding: 37px 90px 45px 45px;
+        & .textRewiew {
+          font: 500 21px "Poppins";
+          color: rgba(94, 98, 130, 1);
+        }
+        & .author {
+          font: 600 23px "Poppins";
+          color: rgba(94, 98, 130, 1);
+          margin: 45px 0 7px;
+        }
+        & .place {
+          font: 500 18px "Poppins";
+          color: rgba(94, 98, 130, 1);
+        }
+      }
+      & .slider {
+        margin-top: 140px;
+        margin-left: 50px;
+        & div:first-of-type:hover {
+          transform: rotate(180deg);
+          margin-left: -1px;
+        }
+        & div:first-of-type {
+          margin-left: 3px;
+          margin-bottom: 76px;
+        }
+        & div:nth-of-type(2) {
+          transform: rotate(180deg);
+        }
+        & div:nth-of-type(2):hover {
+          transform: rotate(0deg);
+          margin-top: 5px;
+          margin-left: 3px;
+        }
+        & .button {
+          background-image: url("../../public/sliderBut.png");
+          width: 25px;
+          height: 20px;
+          background-repeat: no-repeat;
+        }
+        & .button:hover {
+          background-image: url("../../public/hover.png");
+          width: 25px;
+          height: 20px;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+  & .partnets {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & .partnetsWrapper {
+      width: 320px;
+      height: 114px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    & .partnetsWrapper:hover {
+      box-shadow: 0px 133.01px 106.41px 0px rgba(0, 0, 0, 0.05);
+      border-radius: 13px;
+    }
+  }
+  & .subscribe {
+    padding: 105px 206px 103px;
+    margin-top: 150px;
+    border-top-left-radius: 26.6px;
+    border-top-right-radius: 171.59px;
+    border-bottom-right-radius: 26.6px;
+    border-bottom-left-radius: 26.6px;
+    background-image: url("../../public/sub.png");
+    background-color: rgba(223, 215, 249, 1);
+    & h1 {
+      font: 600 43px "Poppins";
+      color: rgba(94, 98, 130, 1);
+      text-align: center;
+    }
+    & .form {
+      display: flex;
+      justify-content: center;
+      gap: 31px;
+      margin-top: 98px;
+      font: 600 22px "Poppins";
+      & button {
+        color: rgba(255, 255, 255, 1);
+        background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+        border-radius: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        width: 239px;
+        height: 90px;
+      }
+      & input {
+        border: none;
+        border-radius: 13px;
+        width: 559px;
+        height: 90px;
+        text-align: center;
+      }
+    }
+  }
+  & footer{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    & .left{
+      & p{
+        font: 500 17px "Poppins";
+        color: rgba(94, 98, 130, 1);
+        margin-top: 60px;
+        max-width: 275px;
+      }
+    }
+    & .right{
+      display: flex;
+      justify-content: space-between;
+      gap:95px;
+      & .block {
+        & h1{
+          color: rgba(8, 8, 9, 1);
+          font: 700 27px "Poppins";
+          margin-bottom: 44px;
+        }
+        & p{
+          color: rgba(94, 98, 130, 1);
+          font: 500 23px "Poppins";
+        }
       }
     }
   }
